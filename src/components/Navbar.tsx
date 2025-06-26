@@ -58,7 +58,11 @@ const Navbar = () => {
         >
           {navLinks.map(({ name }, index) => {
             return (
-              <NavLink key={`${name} + ${index}`} to={`#`} className={`text-xs lg:text-lg`}>
+              <NavLink
+                key={`${name} + ${index}`}
+                to={`#`}
+                className={`text-xs lg:text-sm xl:text-lg`}
+              >
                 {name}
               </NavLink>
             );
