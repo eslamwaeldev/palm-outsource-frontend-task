@@ -29,3 +29,13 @@
 ### Vite
 
 ---
+
+## Design decisions
+
+- The colors and font were inspired by Palm Outsourcing color palette and website
+- I used the id of the mood to highlight it when the user clicked it
+
+## Improvements
+
+- I would improve the tablet navbar drawer
+- I would improve the mood chooser component experience by making the icon also change color
